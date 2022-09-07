@@ -1,0 +1,28 @@
+package sentenceoflogword;
+
+import java.util.Scanner;
+
+class Main {
+	public String solution(String str) {
+		String answer="";
+		int m =Integer.MIN_VALUE;
+		String[] s= str.split(" ");
+		for(String x: s) {
+			System.out.println(x);
+		}
+		
+		
+		return answer;
+	}
+
+
+
+  public static void main(String []args) {
+	  Main T =new Main();
+	  Scanner kb = new Scanner(System.in);
+	  String str =kb.next();
+	  System.out.println(T.solution(str));
+	  
+	  
+  }
+}

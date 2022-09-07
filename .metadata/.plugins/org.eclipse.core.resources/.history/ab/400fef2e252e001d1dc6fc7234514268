@@ -1,0 +1,34 @@
+package palindromeword;
+
+import java.util.Scanner;
+
+class Main {
+	public String solution(String str) {
+		String answer ="";
+		char[] s =str.toCharArray();
+		int lt = 0,rt=str.length()-1;
+		if(str.charAt(rt)==str.charAt(lt)) {
+			System.out.println("Yes");}
+			else{
+				System.out.println("NO");
+				
+			}
+			
+					
+			
+		}
+	
+	
+	
+	public static void main(String[] args) {
+		Main T = new Main();
+		Scanner kb = new Scanner(System.in);
+		String str = kb.next();
+		System.out.println(T.solution(str));
+		
+		
+		
+	
+}
+
+}
